@@ -9,12 +9,7 @@
 #' @param denom_var Variance of the denominator estimator.
 #' @param cov_both Covariance between the numerator and denominator estimators.
 #' @returns A numeric scalar: the approximate variance of the ratio.
-#' @export
-#' @examples
-#' compute_delta_variance(
-#'   num_est = 0.3, denom_est = 0.5,
-#'   num_var = 0.001, denom_var = 0.002, cov_both = 0.0005
-#' )
+#' @keywords internal
 compute_delta_variance <- function(num_est, denom_est, num_var, denom_var,
                                    cov_both) {
   check_number(num_est, "num_est")

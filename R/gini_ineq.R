@@ -10,11 +10,8 @@
 #'   be non-negative and not sum to zero.
 #' @returns A numeric scalar: the Gini index (between 0 and 1 for non-negative
 #'   `x`).
-#' @export
+#' @keywords internal
 #' @importFrom reldist gini
-#' @examples
-#' gini_ineq(c(1, 2, 3, 4, 5))
-#' gini_ineq(c(1, 2, 3, 4, 5), weight = c(1, 1, 2, 1, 1))
 gini_ineq <- function(x, weight = NULL) {
   check_outcome(x, "x")
   check_weight(weight, length(x), "weight")

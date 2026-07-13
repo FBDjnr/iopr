@@ -39,3 +39,4 @@ columns \code{est}, \code{var}, \code{var.naive}, \code{var.stratum}, and \code{
 Estimates the variance of the relative IOP and decomposes it into naive,
 cluster, and stratum components following Bhattacharya (2007).
 }
+\keyword{internal}

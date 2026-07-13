@@ -56,3 +56,20 @@ Estimates relative IOP by regressing log-outcome on circumstance variables
 and computing the Gini index of the resulting hypothesized distribution.
 Optionally computes the variance using analytical or decomposed methods.
 }
+\examples{
+round1 <- subset(synthetic_survey, round == "round_1")
+
+# Relative IOP from a set of circumstance variables (point estimate)
+iop_rel(
+  x = expenditure,
+  circumstances = c("social_group", "religion", "land_category"),
+  data = round1
+)
+
+# With the survey design and analytical variance
+iop_rel(
+  x = expenditure, stratum = stratum, cluster = cluster, weight = weight,
+  circumstances = c("social_group", "religion", "land_category"),
+  data = round1, variance = TRUE
+)
+}

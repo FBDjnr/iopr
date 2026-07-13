@@ -22,3 +22,4 @@ Draws a bootstrap sample by resampling clusters with replacement within
 each stratum. The number of clusters drawn per stratum equals the original
 number of clusters in that stratum.
 }
+\keyword{internal}

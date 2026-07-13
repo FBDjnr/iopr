@@ -11,21 +11,20 @@ Authors@R: c(
         role = "ctb", comment = c(ORCID = "0000-0001-7713-3125")))
 Description: Provides functions to estimate Inequality of Opportunity (IOP)
     and the Gini index for complex survey designs. Supports stratified and
-    clustered sampling with variance estimation using analytical (influence
-    function) and bootstrap methods.
+    clustered sampling with analytical (influence function) variance
+    estimation, an ablation study that quantifies each circumstance's
+    contribution to relative IOP, and a cluster-bootstrap test comparing
+    ablation contributions between two data sets.
 License: GPL-3
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 Depends:
     R (>= 4.1.0)
 Imports:
     dplyr,
-    doParallel,
-    foreach,
-    future,
     ggdist,
     janitor,
-    parallel,
     purrr,
     reldist,
     stats,

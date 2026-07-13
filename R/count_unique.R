@@ -2,9 +2,7 @@
 #'
 #' @param x A vector.
 #' @returns An integer giving the number of unique values in `x`.
-#' @export
-#' @examples
-#' count_unique(c(1, 2, 2, 3))
+#' @keywords internal
 count_unique <- function(x) {
   if (missing(x) || is.null(x)) {
     abort_iopr("`x` must be supplied.")

@@ -3,6 +3,7 @@
 # variable". These are all transient columns created within `mutate()` /
 # `summarise()` calls, not true global variables.
 utils::globalVariables(c(
+  ".cluster", ".src", ".stratum",
   "B", "Fx", "Fy", "Hs", "mtemp", "mtempx", "mtempy", "n_s",
   "nvar", "nvar_x", "nvar_xy", "nvar_y", "q11", "q11x", "q11y",
   "q12", "q12x", "q12y", "samp", "sums", "sumsx", "sumsy",

@@ -6,14 +6,20 @@
 \alias{iopr-package}
 \title{iopr: Inequality of Opportunity Analysis for Complex Surveys}
 \description{
-Provides functions to estimate Inequality of Opportunity (IOP) and the Gini index for complex survey designs. Supports stratified and clustered sampling with variance estimation using analytical (influence function) and bootstrap methods.
+Provides functions to estimate Inequality of Opportunity (IOP) and the Gini index for complex survey designs. Supports stratified and clustered sampling with analytical (influence function) variance estimation, an ablation study that quantifies each circumstance's contribution to relative IOP, and a cluster-bootstrap test comparing ablation contributions between two data sets.
 }
 \author{
-\strong{Maintainer}: Francis Bilson Darku \email{fbd17@yahoo.com}
+\strong{Maintainer}: Francis Bilson Darku \email{fbd17@yahoo.com} (\href{https://orcid.org/0000-0001-8639-8862}{ORCID})
 
 Authors:
 \itemize{
-  \item Francis Bilson Darku \email{fbd17@yahoo.com}
+  \item Francis Bilson Darku \email{fbd17@yahoo.com} (\href{https://orcid.org/0000-0001-8639-8862}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item Dweepobotee Brahma \email{dweepobotee@iitj.ac.in} (\href{https://orcid.org/0000-0002-2421-2927}{ORCID}) [contributor]
+  \item Bhargab Chattopadhyay \email{bhargab@iitj.ac.in} (\href{https://orcid.org/0000-0001-7713-3125}{ORCID}) [contributor]
 }
 
 }

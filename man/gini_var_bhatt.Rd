@@ -33,3 +33,4 @@ and \code{stratum}.
 Estimates the variance of the Gini index and decomposes it into naive,
 cluster, and stratum components following Bhattacharya (2007).
 }
+\keyword{internal}

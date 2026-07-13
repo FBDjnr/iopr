@@ -16,6 +16,14 @@
 #'     `est` and `var`.
 #'   - If `variance = TRUE` and `var.decompose = TRUE`: a list with elements
 #'     `est`, `var`, and `var.decompose`.
+#' @examples
+#' round1 <- subset(synthetic_survey, round == "round_1")
+#'
+#' # Design-based Gini index of expenditure with analytical variance
+#' gini_index(
+#'   x = expenditure, stratum = stratum, cluster = cluster,
+#'   weight = weight, data = round1
+#' )
 #' @export
 #' @seealso [gini_ineq()], [gini_var()], [gini_var_bhatt()]
 gini_index <- function(x, stratum = NULL, cluster = NULL, weight = NULL,

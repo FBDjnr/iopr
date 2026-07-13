@@ -14,7 +14,7 @@
 #' @returns A named list with elements:
 #'   - `est`: Gini index estimate.
 #'   - `var`: Estimated variance of the Gini index.
-#' @export
+#' @keywords internal
 #' @importFrom dplyr mutate group_by summarise pull n
 #' @importFrom ggdist weighted_ecdf
 gini_var <- function(x, stratum = NULL, cluster = NULL, weight = NULL,

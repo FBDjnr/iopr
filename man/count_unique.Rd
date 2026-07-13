@@ -15,6 +15,4 @@ An integer giving the number of unique values in \code{x}.
 \description{
 Count the number of unique values
 }
-\examples{
-count_unique(c(1, 2, 2, 3))
-}
+\keyword{internal}

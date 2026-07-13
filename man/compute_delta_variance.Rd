@@ -24,9 +24,4 @@ A numeric scalar: the approximate variance of the ratio.
 Approximates the variance of the ratio \code{num_est / denom_est} using the
 delta method.
 }
-\examples{
-compute_delta_variance(
-  num_est = 0.3, denom_est = 0.5,
-  num_var = 0.001, denom_var = 0.002, cov_both = 0.0005
-)
-}
+\keyword{internal}

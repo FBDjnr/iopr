@@ -6,7 +6,7 @@
 #' @inheritParams iop_var
 #' @returns A data frame with rows `total_iop`, `abs_iop`, `rel_iop` and
 #'   columns `est`, `var`, `var.naive`, `var.stratum`, and `var.cluster`.
-#' @export
+#' @keywords internal
 #' @importFrom dplyr arrange mutate group_by summarise ungroup desc
 #' @importFrom ggdist weighted_ecdf
 iop_var_decompose <- function(x, y, stratum = NULL, cluster = NULL,

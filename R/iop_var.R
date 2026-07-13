@@ -16,7 +16,7 @@
 #'   (standardized).
 #' @returns A data frame with rows `total_iop`, `abs_iop`, `rel_iop` and
 #'   columns `est` (point estimate) and `var` (variance estimate).
-#' @export
+#' @keywords internal
 #' @importFrom dplyr arrange mutate group_by summarise desc n
 #' @importFrom ggdist weighted_ecdf
 iop_var <- function(x, y, stratum = NULL, cluster = NULL, weight = NULL,

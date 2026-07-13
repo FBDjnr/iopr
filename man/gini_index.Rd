@@ -51,6 +51,15 @@ influence function approach or the Bhattacharya decomposition, for complex
 survey designs with stratification and clustering. Observations with missing
 values are dropped before computation.
 }
+\examples{
+round1 <- subset(synthetic_survey, round == "round_1")
+
+# Design-based Gini index of expenditure with analytical variance
+gini_index(
+  x = expenditure, stratum = stratum, cluster = cluster,
+  weight = weight, data = round1
+)
+}
 \seealso{
 \code{\link[=gini_ineq]{gini_ineq()}}, \code{\link[=gini_var]{gini_var()}}, \code{\link[=gini_var_bhatt]{gini_var_bhatt()}}
 }

@@ -7,3 +7,7 @@
 ^\.positai$
 ^\.claude$
 ^LICENSE\.md$
+^data-raw$
+^check_log\.txt$
+^check_result\.rds$
+^.*\.Rcheck$

@@ -22,7 +22,4 @@ Without weights, uses the standard rank-based formula. With weights, delegates
 to \code{\link[reldist:gini]{reldist::gini()}}. Observations with a missing value (in \code{x} or, when
 supplied, \code{weight}) are dropped before computation.
 }
-\examples{
-gini_ineq(c(1, 2, 3, 4, 5))
-gini_ineq(c(1, 2, 3, 4, 5), weight = c(1, 1, 2, 1, 1))
-}
+\keyword{internal}

@@ -26,6 +26,22 @@
 #'   - If `variance = TRUE`: a data frame with rows `total_iop`, `abs_iop`,
 #'     `rel_iop` and columns `est` and `var` (plus decomposed columns if
 #'     `var.decompose = TRUE`).
+#' @examples
+#' round1 <- subset(synthetic_survey, round == "round_1")
+#'
+#' # Relative IOP from a set of circumstance variables (point estimate)
+#' iop_rel(
+#'   x = expenditure,
+#'   circumstances = c("social_group", "religion", "land_category"),
+#'   data = round1
+#' )
+#'
+#' # With the survey design and analytical variance
+#' iop_rel(
+#'   x = expenditure, stratum = stratum, cluster = cluster, weight = weight,
+#'   circumstances = c("social_group", "religion", "land_category"),
+#'   data = round1, variance = TRUE
+#' )
 #' @export
 #' @importFrom dplyr summarise across select all_of
 #' @importFrom tidyselect where

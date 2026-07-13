@@ -39,3 +39,4 @@ columns \code{est} (point estimate) and \code{var} (variance estimate).
 Estimates the variance of the relative IOP (and its components) using the
 influence function approach for stratified cluster samples.
 }
+\keyword{internal}

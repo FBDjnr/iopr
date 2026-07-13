@@ -9,7 +9,7 @@
 #' @param data A data frame containing survey data.
 #' @returns A data frame with the same columns as `data`, with duplicated rows
 #'   for resampled clusters.
-#' @export
+#' @keywords internal
 #' @importFrom dplyr select group_by mutate ungroup left_join join_by
 #' @importFrom tidyr nest unnest
 #' @importFrom purrr map2

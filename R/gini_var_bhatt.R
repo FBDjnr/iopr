@@ -9,7 +9,7 @@
 #'   - `var`: Total estimated variance.
 #'   - `var.decompose`: Named numeric vector with components `naive`, `cluster`,
 #'     and `stratum`.
-#' @export
+#' @keywords internal
 #' @importFrom dplyr mutate arrange group_by summarise ungroup desc
 #' @importFrom ggdist weighted_ecdf
 gini_var_bhatt <- function(x, stratum = NULL, cluster = NULL, weight = NULL,

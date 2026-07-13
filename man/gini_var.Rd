@@ -31,3 +31,4 @@ A named list with elements:
 Estimates the variance of the Gini index using the influence function
 approach, accommodating stratified cluster sampling.
 }
+\keyword{internal}
