@@ -2,8 +2,13 @@ Package: iopr
 Type: Package
 Title: Inequality of Opportunity Analysis for Complex Surveys
 Version: 0.1.0
-Authors@R: person("Francis", "Bilson Darku", email = "fbd17@yahoo.com",
-    role = c("aut", "cre"))
+Authors@R: c(
+    person("Francis", "Bilson Darku", email = "fbd17@yahoo.com",
+        role = c("aut", "cre"), comment = c(ORCID = "0000-0001-8639-8862")),
+    person("Dweepobotee", "Brahma", email = "dweepobotee@iitj.ac.in",
+        role = "ctb", comment = c(ORCID = "0000-0002-2421-2927")),
+    person("Bhargab", "Chattopadhyay", email = "bhargab@iitj.ac.in",
+        role = "ctb", comment = c(ORCID = "0000-0001-7713-3125")))
 Description: Provides functions to estimate Inequality of Opportunity (IOP)
     and the Gini index for complex survey designs. Supports stratified and
     clustered sampling with variance estimation using analytical (influence
