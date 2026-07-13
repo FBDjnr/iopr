@@ -1,0 +1,9 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory$
+^\.Rprofile$
+^\.positai$
+^\.claude$
+^LICENSE\.md$
